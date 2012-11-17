@@ -1,6 +1,6 @@
 package DBIx::Class::UnicornLogger;
 {
-  $DBIx::Class::UnicornLogger::VERSION = '0.001000';
+  $DBIx::Class::UnicornLogger::VERSION = '0.001001';
 }
 
 # ABSTRACT: Pretty Printing DebugObj with nicer logging features
@@ -198,8 +198,8 @@ sub query_end {
 
 1;
 
-
 __END__
+
 =pod
 
 =head1 NAME
@@ -208,7 +208,7 @@ DBIx::Class::UnicornLogger - Pretty Printing DebugObj with nicer logging feature
 
 =head1 VERSION
 
-version 0.001000
+version 0.001001
 
 =head1 SYNOPSIS
 
@@ -262,4 +262,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-

@@ -1,0 +1,23 @@
+---
+abstract: 'Pretty Printing DebugObj with nicer logging features'
+author:
+  - "Arthur Axel \"fREW\" Schmidt <frioux+cpan@gmail.com>"
+build_requires: {}
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300028, CPAN::Meta::Converter version 2.120921'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: DBIx-Class-UnicornLogger
+requires:
+  DBIx::Class: 0.08127
+  Log::Sprintf: 0.001001
+  Log::Structured: 0.001000
+  Moo: 0.091000
+  Test::More: 0.98
+resources:
+  repository: git://github.com/frioux/DBIx-Class-UnicornLogger.git
+version: 0.001001

@@ -1,6 +1,6 @@
 package DBIx::Class::UnicornLogger::FromProfile;
 {
-  $DBIx::Class::UnicornLogger::FromProfile::VERSION = '0.001000';
+  $DBIx::Class::UnicornLogger::FromProfile::VERSION = '0.001001';
 }
 
 # ABSTRACT: Define your UnicornLogger with a single string!
@@ -79,7 +79,7 @@ sub BUILDARGS {
 
 1;
 
-
+__END__
 
 =pod
 
@@ -89,7 +89,7 @@ DBIx::Class::UnicornLogger::FromProfile - Define your UnicornLogger with a singl
 
 =head1 VERSION
 
-version 0.001000
+version 0.001001
 
 =head1 SYNOPSIS
 
@@ -134,7 +134,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
-
-__END__
-
