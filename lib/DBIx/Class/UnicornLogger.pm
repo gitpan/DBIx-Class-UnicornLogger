@@ -1,6 +1,6 @@
 package DBIx::Class::UnicornLogger;
 {
-  $DBIx::Class::UnicornLogger::VERSION = '0.001001';
+  $DBIx::Class::UnicornLogger::VERSION = '0.001002';
 }
 
 # ABSTRACT: Pretty Printing DebugObj with nicer logging features
@@ -208,7 +208,7 @@ DBIx::Class::UnicornLogger - Pretty Printing DebugObj with nicer logging feature
 
 =head1 VERSION
 
-version 0.001001
+version 0.001002
 
 =head1 SYNOPSIS
 
@@ -256,7 +256,7 @@ Arthur Axel "fREW" Schmidt <frioux+cpan@gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2012 by Arthur Axel "fREW" Schmidt.
+This software is copyright (c) 2013 by Arthur Axel "fREW" Schmidt.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

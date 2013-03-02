@@ -1,6 +1,6 @@
 package DBIx::Class::UnicornLogger::FromProfile;
 {
-  $DBIx::Class::UnicornLogger::FromProfile::VERSION = '0.001001';
+  $DBIx::Class::UnicornLogger::FromProfile::VERSION = '0.001002';
 }
 
 # ABSTRACT: Define your UnicornLogger with a single string!
@@ -89,7 +89,7 @@ DBIx::Class::UnicornLogger::FromProfile - Define your UnicornLogger with a singl
 
 =head1 VERSION
 
-version 0.001001
+version 0.001002
 
 =head1 SYNOPSIS
 
@@ -100,7 +100,7 @@ version 0.001001
 
 =head1 DESCRIPTION
 
-This pacakge is merely a collection of unicorn profiles.  Currently there are
+This package is merely a collection of unicorn profiles.  Currently there are
 only a few but I'm completely willing to incorporate everyone's settings into
 this module.  So if you have a tweak you want to make to it, let me know!
 
@@ -128,7 +128,7 @@ Arthur Axel "fREW" Schmidt <frioux+cpan@gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2012 by Arthur Axel "fREW" Schmidt.
+This software is copyright (c) 2013 by Arthur Axel "fREW" Schmidt.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
