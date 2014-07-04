@@ -4,7 +4,7 @@
       "Arthur Axel \"fREW\" Schmidt <frioux+cpan@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300030, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Dist::Zilla version 5.019, CPAN::Meta::Converter version 2.141170",
    "license" : [
       "perl_5"
    ],
@@ -28,20 +28,28 @@
          "requires" : {
             "DBIx::Class" : "0.08127",
             "Log::Sprintf" : "0.001001",
-            "Log::Structured" : "0.001000",
-            "Moo" : "0.091000",
+            "Log::Structured" : "0.001",
+            "Moo" : "0.091"
+         }
+      },
+      "test" : {
+         "requires" : {
             "Test::More" : "0.98"
          }
       }
    },
    "release_status" : "stable",
    "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/frioux/DBIx-Class-UnicornLogger/issues"
+      },
+      "homepage" : "https://github.com/frioux/DBIx-Class-UnicornLogger",
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/frioux/DBIx-Class-UnicornLogger.git",
-         "web" : "http://github.com/frioux/DBIx-Class-UnicornLogger"
+         "url" : "https://github.com/frioux/DBIx-Class-UnicornLogger.git",
+         "web" : "https://github.com/frioux/DBIx-Class-UnicornLogger"
       }
    },
-   "version" : "0.001002"
+   "version" : "0.001003"
 }
 

@@ -1,8 +1,5 @@
 package DBIx::Class::UnicornLogger;
-{
-  $DBIx::Class::UnicornLogger::VERSION = '0.001002';
-}
-
+$DBIx::Class::UnicornLogger::VERSION = '0.001003';
 # ABSTRACT: Pretty Printing DebugObj with nicer logging features
 
 use Moo;
@@ -25,6 +22,7 @@ my %code_to_method = (
   p => 'log_priority',
   r => 'log_milliseconds_since_start',
   R => 'log_milliseconds_since_last_log',
+  T => 'log_stacktrace',
 );
 
 sub BUILDARGS {
@@ -36,7 +34,7 @@ sub BUILDARGS {
          : @rest
    );
 
-   $args{_sqlat} = SQL::Abstract::Tree->new($args{tree});
+   $args{_sqlat} = SQL::Abstract::Tree->new($args{tree} || {});
 
    return \%args
 }
@@ -202,13 +200,15 @@ __END__
 
 =pod
 
+=encoding UTF-8
+
 =head1 NAME
 
 DBIx::Class::UnicornLogger - Pretty Printing DebugObj with nicer logging features
 
 =head1 VERSION
 
-version 0.001002
+version 0.001003
 
 =head1 SYNOPSIS
 
@@ -256,7 +256,7 @@ Arthur Axel "fREW" Schmidt <frioux+cpan@gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2013 by Arthur Axel "fREW" Schmidt.
+This software is copyright (c) 2014 by Arthur Axel "fREW" Schmidt.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
